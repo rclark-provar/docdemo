@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Credit Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>300-579: Poor.</fullName>
+                <default>false</default>
+                <label>300-579: Poor.</label>
+            </value>
+            <value>
+                <fullName>580-669: Fair.</fullName>
+                <default>false</default>
+                <label>580-669: Fair.</label>
+            </value>
+            <value>
+                <fullName>670-739: Good.</fullName>
+                <default>false</default>
+                <label>670-739: Good.</label>
+            </value>
+            <value>
+                <fullName>740-799: Very good.</fullName>
+                <default>false</default>
+                <label>740-799: Very good.</label>
+            </value>
+            <value>
+                <fullName>800-850: Excellent</fullName>
+                <default>false</default>
+                <label>800-850: Excellent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
