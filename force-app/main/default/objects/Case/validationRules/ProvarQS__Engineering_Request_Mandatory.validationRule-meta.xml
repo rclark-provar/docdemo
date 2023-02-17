@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProvarQS__Engineering_Request_Mandatory</fullName>
+    <active>true</active>
+    <description>When priority is set to High</description>
+    <errorConditionFormula>AND ( 
+(Text(Priority)=&apos;High&apos;) 
+, 
+(ProvarQS__QSEngineeringReqNumber__c=NULL) 
+)</errorConditionFormula>
+    <errorDisplayField>ProvarQS__QSEngineeringReqNumber__c</errorDisplayField>
+    <errorMessage>Engineering Req Number is required when Priority is set to &apos;High&apos;.</errorMessage>
+</ValidationRule>

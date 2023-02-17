@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProvarQS__PotentialLiabilityReq_when_Priority_High</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND ( 
+(Text(Priority)=&apos;High&apos;) 
+, 
+(Text(ProvarQS__QSPotentialLiability__c)=NULL) 
+)</errorConditionFormula>
+    <errorDisplayField>ProvarQS__QSPotentialLiability__c</errorDisplayField>
+    <errorMessage>Potential Liability information is required when Priority is set to &apos;High&apos;.</errorMessage>
+</ValidationRule>
